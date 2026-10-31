@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Kimi 通道",
+    "description": "本机回环 WebSocket 控制通道，让 Kimi Code 创建、驱动、中途插话并代答 DSH 会话的审批。"
+  }
+}

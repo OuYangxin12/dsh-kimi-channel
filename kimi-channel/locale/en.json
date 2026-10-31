@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Kimi Channel",
+    "description": "Loopback WebSocket control channel that lets Kimi Code create, drive, steer, and approve DSH sessions."
+  }
+}

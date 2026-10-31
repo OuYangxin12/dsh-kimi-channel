@@ -1,0 +1,9 @@
+# Host-side control channel for Kimi Code.
+# Every field is optional; the plugin also reads ~/.dsh/kimi-channel.json,
+# and the file wins over the row config. Keep secrets out of this file.
+- insert:
+    - id: kimi-channel
+      name: 'dsh-kimi-channel'
+      config:
+        host: 127.0.0.1
+        port: 8137

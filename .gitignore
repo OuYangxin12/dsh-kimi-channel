@@ -1,0 +1,13 @@
+# Publish only this project's files; the workspace holds unrelated work.
+*
+!.gitignore
+!README.md
+!LICENSE
+!kimi-channel/
+!kimi-channel/**
+!kimi-skill/
+!kimi-skill/**
+!e2e/
+!e2e/**
+!docs/
+!docs/**

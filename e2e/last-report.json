@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-10-31T02:24:31.067Z",
+  "channelPort": 45497,
+  "checks": [
+    {
+      "name": "token file exists",
+      "ok": true
+    },
+    {
+      "name": "token file is 0600",
+      "ok": true,
+      "detail": "mode 600"
+    },
+    {
+      "name": "health exits 0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "health reports ok",
+      "ok": true
+    },
+    {
+      "name": "tools turn exits 0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tools turn produced a final payload",
+      "ok": true
+    },
+    {
+      "name": "tools turn used tools",
+      "ok": true
+    },
+    {
+      "name": "a.txt contains b.txt then a.txt contents",
+      "ok": true,
+      "detail": "\"beta line\\nalpha line\\n\""
+    },
+    {
+      "name": "tools turn reported usage",
+      "ok": true
+    },
+    {
+      "name": "session id is channel-minted",
+      "ok": true
+    },
+    {
+      "name": "second turn exits 0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "second turn reuses the session",
+      "ok": true,
+      "detail": "kimi-0cc61bdb-mvvs23nx vs kimi-0cc61bdb-mvvs23nx"
+    },
+    {
+      "name": "second turn is turn 2 or later",
+      "ok": true,
+      "detail": "turn 2"
+    },
+    {
+      "name": "approval turn exits 0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "approval prompt was forwarded",
+      "ok": true
+    },
+    {
+      "name": "approval prompt carried a reason",
+      "ok": true
+    },
+    {
+      "name": "approved bash ran",
+      "ok": true,
+      "detail": "approval-probe"
+    },
+    {
+      "name": "submit returns a session and message id",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "watch follows the submitted turn to final",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "watch final contains the worker answer",
+      "ok": true,
+      "detail": "beta line"
+    },
+    {
+      "name": "report returns the same final payload",
+      "ok": true,
+      "detail": "{\n  \"protocol\": 1,\n  \"lastSeq\": 58,\n  \"clients\": 1,\n  \"conversation\": {\n    \"conversationKey\": \"e2e-manager\",\n    \"sessionId\": \"kimi-02381e90-mvvs2izz\",\n    \"cwd\": \"<workspace>/.e2e-run/work\",\n    \"turn\": 1,\n    \"status\": \"idle\"\n  },\n  \"lastFinal\": {\n    \"t"
+    },
+    {
+      "name": "deny turn still completes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "denied bash did not run",
+      "ok": true,
+      "detail": "Error: the user rejected escalating this command to \"danger-full-access\"; it stays denied, so stop and explain instead of working around it"
+    },
+    {
+      "name": "events.resume returns frames",
+      "ok": true,
+      "detail": "code 0"
+    },
+    {
+      "name": "replayed seq is strictly increasing",
+      "ok": true
+    }
+  ],
+  "passed": 25,
+  "failed": 0
+}

@@ -1,0 +1,30 @@
+{
+  "name": "dsh-kimi-channel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Loopback WebSocket control channel that lets Kimi Code create, drive, steer, and approve DSH sessions.",
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "kimi-code", "channel"],
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/*.mjs",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "engines": { "node": ">=22.19" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}
